@@ -1,0 +1,2 @@
+cp: cannot stat ‘/scicomp/home-pure/xpa3/mira_cli_test_data/amd_test_data/sra_fastqs/SRR28586467_1.fastq.gz’: No such file or directory
+cp: cannot stat ‘/scicomp/home-pure/xpa3/mira_cli_test_data/amd_test_data/sra_fastqs/SRR28586467_2.fastq.gz’: No such file or directory
