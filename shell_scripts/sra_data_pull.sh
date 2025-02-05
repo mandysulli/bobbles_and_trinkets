@@ -163,11 +163,11 @@ SRR30049992
 "
 i=1
 
-#for i in $SAMPLES; do
-#prefetch -O /scicomp/home-pure/xpa3/mira_cli_test_data/amd_test_data/sra_pulls $i
-#cd /scicomp/home-pure/xpa3/mira_cli_test_data/amd_test_data/sra_pulls/$i
-#fasterq-dump --split-files $i\.sra -O /scicomp/home-pure/xpa3/mira_cli_test_data/amd_test_data/fastqs
-#done
+for i in $SAMPLES; do
+    prefetch -O /scicomp/home-pure/xpa3/mira_cli_test_data/amd_test_data/sra_pulls $i
+    cd /scicomp/home-pure/xpa3/mira_cli_test_data/amd_test_data/sra_pulls/$i
+    fasterq-dump --split-files $i\.sra -O /scicomp/home-pure/xpa3/mira_cli_test_data/amd_test_data/fastqs
+done
 
 cd /scicomp/home-pure/xpa3/mira_cli_test_data/amd_test_data/fastqs
 gzip *
