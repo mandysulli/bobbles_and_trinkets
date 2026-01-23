@@ -17,7 +17,7 @@ cd "$WORKDIR" || exit 1
 
 singularity pull docker:cdcgov/mira-oxide:v1.3.1
 
-cp /scicomp/groups/OID/NCIRD/ID-OD/VSDB/BIA/FLU_SC2_SEQUENCING/sra-2026-01-15/mira-output/aggregate_outputs/dais-ribosome/DAIS_ribosome.seq mira-output/manual_mira_oxide_run
+cp /scicomp/groups/OID/NCIRD/ID-OD/VSDB/BIA/FLU_SC2_SEQUENCING/sra-2026-01-15/mira-output/aggregate_outputs/dais-ribosome/DAIS_ribosome.seq ./
 
 echo "Running MIRA-Oxide prepare-mira-reports command"
 echo "Working directory: $PWD"
